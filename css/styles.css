@@ -1,0 +1,126 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #E5E5E5;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.site-header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #273140;
+}
+
+.site-header__heading {
+  width: 220px;
+  color: #F9D396;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.form__input-wrapper {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #F9D396;
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 10px;
+  background-color: #fff;
+}
+
+.form__output-wrapper {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #F9D396;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 10px;
+  background-color: #fff;
+}
+
+.output-text {
+  width: 100%;
+  resize: vertical;
+  border: none;
+  border-bottom: 1px solid #F9D396;
+}
+
+.form__clear-btn {
+  width: 100px;
+  border-radius: 5px;
+  background-color: #E4E4E4;
+  color: #364459;
+  border: none;
+  margin-top: 5px;
+  padding: 3px;
+}
+
+.form__copy-btn {
+  width: 100px;
+  border-radius: 5px;
+  background-color: #E4E4E4;
+  color: #364459;
+  border: none;
+  margin-top: 5px;
+  margin-left: auto;
+  padding: 3px;
+}
+
+.input-text {
+  width: 100%;
+  resize: vertical;
+  border: none;
+  border-bottom: 1px solid #F9D396;
+}
+
+.btn:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.form__select-wrapper {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.form__select {
+  width: 80px;
+  border: none;
+  border: 1px solid #F9D396;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 5px;
+}
