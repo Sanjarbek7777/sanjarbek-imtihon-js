@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encoding</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-header__heading">Caesars Cipher</h1>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <form class="js-form form" action="https://echo.htmlacademy.ru" method="GET">
+        <div class="form__select-wrapper">
+          <select class="js-rotate-select form__select" name="rotate_select" required>
+
+          </select>
+        </div>
+        <div class="decoding__wrapper">
+          <a class="decoding__link" href="encoding.html">
+            <h3 class="decoding__heading">Encoding</h3>
+          </a>
+        </div>
+        <div class="form__wrapper">
+          <div class="form__input-wrapper">
+            <textarea class="js-input-text input-text" name="text_input"  cols="50" rows="30" aria-label="text_input" placeholder="Matn kiriting"></textarea>
+            <button class="js-clear-btn form__clear-btn btn" type="reset">Clear</button>
+          </div>
+          <div>
+            <button class="encoding-result-btn">Result</button>
+          </div>
+          <div class="form__output-wrapper">
+            <textarea class="js-output-text output-text" name="text_output"  cols="50" rows="30" aria-label="text_output" readonly placeholder="Result"></textarea>
+            <button class="js-copy-btn form__copy-btn btn" id="paragraph1" type="button">Copy</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </main>
+
+<script src="js/encoding.js"></script>
+</body>
+</html>

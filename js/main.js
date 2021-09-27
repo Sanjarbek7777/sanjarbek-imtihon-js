@@ -8,7 +8,7 @@ const elCopyBtn = elForm.querySelector('.js-copy-btn');
 
 function showOptionRot() {
   const elRotFragment = document.createDocumentFragment();
-  for (let rot = 1  ; rot <= 25; rot++) {
+  for (let rot = 1; rot <= 25; rot++) {
     const elRotOption = document.createElement('option');
     elRotOption.textContent = `Rot - ${rot}`;
     elRotOption.value = rot;

@@ -42,7 +42,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .form__input-wrapper {
@@ -69,7 +69,7 @@ body {
 
 .output-text {
   width: 100%;
-  resize: vertical;
+  resize: none;
   border: none;
   border-bottom: 1px solid #F9D396;
 }
@@ -97,7 +97,7 @@ body {
 
 .input-text {
   width: 100%;
-  resize: vertical;
+  resize: none;
   border: none;
   border-bottom: 1px solid #F9D396;
 }
@@ -123,4 +123,29 @@ body {
   padding-top: 3px;
   padding-bottom: 3px;
   border-radius: 5px;
+}
+
+.decoding__heading {
+  width: 75px;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.decoding__link {
+  text-decoration: none;
+  color: #273140;
+}
+
+.encoding-result-btn {
+  border: none;
+  color: #273140;
+  background-color: #F9D396;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+}
+
+.encoding-result-btn:hover {
+  cursor: pointer;
+  opacity: 0.7;
 }
