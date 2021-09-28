@@ -19,7 +19,7 @@ function showOptionRot() {
 
 function caserShifr (str, sum) {
   if (sum < 0) {
-    return caesarShift(str, sum + 26);
+    return caserShifr(str, sum + 26);
   }
 
   var output = "";
@@ -60,6 +60,6 @@ elCopyBtn.addEventListener('click', (e) => {
   e.preventDefault();
 
   elTextOutput.select();
-  document.execCommand("copy");
+   document.execCommand("copy");
 });
 
