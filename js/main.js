@@ -60,7 +60,6 @@ elCopyBtn.addEventListener('click', (e) => {
   e.preventDefault();
 
   elTextOutput.select();
-  console.log(elTextOutput.value);
   document.execCommand("copy");
 });
 
